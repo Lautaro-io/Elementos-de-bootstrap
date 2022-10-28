@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body style="background-color: black;">
+    <div class="container">
+        <div class="bhtg-lig p-5 rounded-3 bg-white">
+            <div class="container-fluid py-5">
+                <h1 class="display -5 fw-bold"> Ejercicio Jumbotron</h1>
+                <p class="col-md-8 fs-4">Usando las utilidades, tu puedes crear este Jumbotron, como en las versiones anteriores de bootstrap. Chekea los ejemplos y transformalos a tu estilo y forma .</p>
+                <button type="button" class="btn btn-success btn-lg" href="#" data-bs-toggle="modal" data-bs-target="#modal-ejercicio"> Jumbotron button</button>
+                <div class="modal" id="modal-ejercicio" data-bs-backdrop="static">
+                    <div class="modal-dialog modal-dialog-centered">                    
+                        <div class="modal-content">
+                        <h3 class="modal-header">
+                            This is a modal example
+                        </h3>
+                        <div class="modal-body">
+                            This is a modal body
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-danger" data-bs-dismiss="modal"> Cerrar</button>
+                            <button class="btn btn-success" >Aceptar</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-flex justify-content-center align-items-center py-5"  >
+        <form class=" py-4 px-4 rounded" style="background-color: #622979  ;">
+            <label for="nombre" class="form-label fw-bold" style=" color: white; " >Introduce tu nombre</label>
+            <input type="text" name="nombre" id="nombre" class="form-control form-control-md" placeholder="Escribe tu nombre">
+            <label for="numero" class="form-label fw-bold" style=" color: white;">Introduce tu número de telefono</label>
+            <input type="number" name="numero" id="numero" class="form-control"placeholder="Numero telefonico">
+            <label for="comentario" class="form-label fw-bold"  style=" color: white; ">Mensaje</label>
+            <input type="textarea" name="comentario" id="comentario" class="form-control ">
+        </form>
+    </div>
+    
+    <div class="container">
+        <div class="card mb-20" style="margin-bottom: 15rem;">
+            <div class="card-header">
+                <h3>Mi perfil programador</h3>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Lautaro  Ildarraz</h5>
+                <p class="card-text">Soy un estudiante de programación orientado a ser fullstack</p>
+            </div>
+            <div class="card-footer">
+                <h6 class="card-text">Chelo43360@gmail.com</h6>
+            </div>
+        </div>
+    </div>
+    <footer> @ Derechos reservados por mi</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</html>
